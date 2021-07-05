@@ -1,2 +1,2 @@
 # web
-Website for my father
+Use: https://josephsusik.github.io to view
