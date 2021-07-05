@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-size: 110%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -21,61 +23,140 @@
 }
 
 .nadpis p {
-    font-family: 'Roboto', sans-serif;
     font-size: 2.5vw;
+}
+
+.nadpis_tel {
+    position: absolute;
+    bottom: 25%;
+    right: 25%; 
+    text-align: left;
+}
+
+.nadpis_tel p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}
+
+.god {
+    margin-top: 1.5vw;
+    margin-left: 17.5vw;
+    margin-right: 17.5vw;
+
+}
+
+.text {
+    float: left;
+    height: auto;
+    max-width: 40vw;
+    box-shadow: 0 6px 20px 0 gray;
+    min-width: 50%;
+    font-size: min(2vw, 20px);
+    background-color: #F0EFEC;
+}
+
+.udaje {
+    float: right;
+    height: auto;
+    box-shadow: 0 6px 20px 0 gray;
+    width: 22vw;
+    font-size: min(2vw, 20px);
+    background-color: #F0EFEC;
+}
+
+.kontakt {
+    margin-top: 15px;
+    float: right;
+    height: auto;
+    box-shadow: 0 6px 20px 0 gray;
+    width: 22vw;
+    font-size: min(2vw, 20px);
+    background-color: #F0EFEC;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.kontakt h5 {
+    text-align: center;
+}
+
+.udaje p {
+    text-align: center;
+}
+
+.udaje h5 {
+    text-align: center;
 }
 
 .aktuality {
     float: left;
-    width: 60vw;
-    border: 1px solid red;
+    width: auto;
+    padding: 10px;
 }
 
-.doba {
-    float: right;
-    width: 39vw;
-    border:1px solid blue;
+.aktuality h5 {
+    text-align: center;
 }
 
-.ockovani {
-    float: left;
-    width: 60vw;
-    border: 1px solid yellow;
+.aktuality p {
+    text-align: center;
 }
 
-.contact {
-    float: right;
-    width: 39vw;
-    border:1px solid green;
+
+.footer {
+    height: 50px;
 }
+
 
 @media screen and (max-width: 700px) {
+    
+    .text {
+        margin: 0;
+        float: none;
+        height: auto;
+        box-shadow: none;
+        min-width: none;
+        width: auto;
+        max-width: none;
+        font-size: 100%;
+    }
+
     .aktuality { 
-     float: none;
-     margin-right:0;
-     width:auto;
-     border:0;
-     border-bottom:2px solid #000;    
+        float: none;
+        margin-right:0;
+        margin-left: 0;
+        width:auto;
+        border:0;
+        border-bottom:2px solid #000;    
+        box-shadow: none;
     }
-   .doba { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
+   
+    .aktuality h5 {
+        text-align: center;
     }
-    .ockovani { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
+
+    .udaje {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+        box-shadow: none;
+        width: auto;
+        font-size: 100%;
+        border-bottom:2px solid #000;    
     }
-    .contact { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
+
+    .kontakt {
+        margin-top: 0;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+        box-shadow: none;
+        width: auto;
+        font-size: 100%;
     }
+
+
 }
