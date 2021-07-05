@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.header img{
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #666;
+}
+
+.nadpis {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;    
+}
+
+.nadpis p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+}
+
+.aktuality {
+    float: left;
+    width: 60vw;
+    border: 1px solid red;
+}
+
+.doba {
+    float: right;
+    width: 39vw;
+    border:1px solid blue;
+}
+
+.ockovani {
+    float: left;
+    width: 60vw;
+    border: 1px solid yellow;
+}
+
+.contact {
+    float: right;
+    width: 39vw;
+    border:1px solid green;
+}
+
+@media screen and (max-width: 700px) {
+    .aktuality { 
+     float: none;
+     margin-right:0;
+     width:auto;
+     border:0;
+     border-bottom:2px solid #000;    
+    }
+   .doba { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+    }
+    .ockovani { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+    }
+    .contact { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+    }
+}
