@@ -13,7 +13,6 @@
 .header img{
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #666;
 }
 
 .nadpis {
@@ -26,6 +25,17 @@
     font-size: 2.5vw;
 }
 
+.ico {
+    position: absolute;
+    bottom: 25%;
+    left: 25%;   
+}
+
+.ico p {
+    font-size: 1vw;
+    text-align: left;
+}
+
 .nadpis_tel {
     position: absolute;
     bottom: 25%;
@@ -35,8 +45,36 @@
 
 .nadpis_tel p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: -5px;
+    padding: 0px;
+    text-align:center;
+    background-color: #333;
+    padding: 5px;
+  }
+
+ul li {
+    display: inline-block;
+    padding-left: 7px;
+}
+
+li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+}
+ 
+li a:hover {
+    background-color: whitesmoke;
+    color:#333
+}
+
+
 
 .god {
     margin-top: 1.5vw;
@@ -50,9 +88,10 @@
     height: auto;
     max-width: 40vw;
     box-shadow: 0 6px 20px 0 gray;
-    min-width: 50%;
+    min-width: 40vw;
     font-size: min(2vw, 20px);
     background-color: #F0EFEC;
+    text-align: center;
 }
 
 .udaje {
@@ -64,6 +103,18 @@
     background-color: #F0EFEC;
 }
 
+.udaje td {
+    font-size: min(2vw, 20px);
+}
+
+.udaje table {
+   // margin: 5px;
+   // float: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
 .kontakt {
     margin-top: 15px;
     float: right;
@@ -74,6 +125,7 @@
     background-color: #F0EFEC;
     padding: 10px;
     box-sizing: border-box;
+    text-align: center;
 
 }
 
@@ -90,9 +142,9 @@
 }
 
 .aktuality {
-    float: left;
     width: auto;
     padding: 10px;
+    min-height: 400px;
 }
 
 .aktuality h5 {
@@ -102,7 +154,6 @@
 .aktuality p {
     text-align: center;
 }
-
 
 .footer {
     height: 50px;
@@ -160,3 +211,11 @@
 
 
 }
+
+
+
+
+
+
+
+
