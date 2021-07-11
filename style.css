@@ -296,6 +296,10 @@ li a:hover {
     ul {
         font-size: 3vw;
     }
+
+    .odkaz {
+        font-size: 2.5vw;
+    }
 }
 
 
