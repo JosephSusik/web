@@ -56,7 +56,7 @@ ul {
     text-align:center;
     background-color: #333;
     padding: 5px;
-  }
+}
 
 ul li {
     display: inline-block;
@@ -64,13 +64,13 @@ ul li {
 }
 
 li a {
-    color: whitesmoke;
+    color: #F0EFEC;
     text-decoration: none;
     padding: 5px;
 }
  
 li a:hover {
-    background-color: whitesmoke;
+    background-color: #F0EFEC;
     color:#333
 }
 
@@ -188,6 +188,10 @@ li a:hover {
     height: 50px;
 }
 
+.ico_div {
+    display: none;
+}
+
 @media screen and (max-width: 700px) {
     
     .god {
@@ -236,6 +240,12 @@ li a:hover {
 
         box-shadow: 0 6px 20px 0 gray; 
         margin-bottom: 15px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+    }
+
+    .udaje td {
+        font-size: 90%;
     }
 
     .kontakt {
@@ -251,7 +261,41 @@ li a:hover {
         margin-bottom: 15px;
     }
 
+    .ico_div {
+        background-color: #F0EFEC;
+        display:block;
+        float: none;
+        margin-right:0;
+        margin-left: 0;
+        width:auto;
+        border:0;
+        box-shadow: 0 6px 20px 0 gray; 
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 100%;
+    }
 
+    .ico {
+        display: none;
+    }
+
+    .nadpis {
+        position: absolute;
+        bottom: 35%;
+        left: 25%;    
+    }
+
+    .nadpis p {
+        font-size: 6vw;
+    }
+
+    .nadpis_tel {
+        display: none;
+    }
+
+    ul {
+        font-size: 3vw;
+    }
 }
 
 
